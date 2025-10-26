@@ -1,7 +1,7 @@
 # 🐍 EvoSlither - Genetic Algorithm Bot for Slither.io
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)](src/evoslither.js)
+[![Version](https://img.shields.io/badge/Version-1.0.1.4-blue.svg)](src/evoslither.js)
 [![Research Focus](https://img.shields.io/badge/Research-Genetic_Algorithms-green.svg)](docs/ALGORITHM.md)
 
 **Watch artificial evolution in real-time!** EvoSlither is an intelligent bot that learns to play Slither.io through genetic algorithms, adapting and improving with each generation.
@@ -22,11 +22,11 @@ EvoSlither isn't just another bot - it's a **living laboratory** where you can o
 2. **Enter** a nickname but wait to join game
 3. **Open browser console** (`F12` → Console)
 4. **Copy & paste** the code from [`src/evoslither.js`](src/evoslither.js)
-5. **Run the code** it injects the bot in your page, making it ready to work: in console you'll see "injected" confirmation
+5. **Run the code** making it ready to work: in console you'll see "injected" confirmation
 6. **Close browser console** (`F12` again)
-7. **Join the game** as soon as you'll join, the bot starts working: you'll see it "taking the helm" and roaming
-8. **Press `E`** to enable/disable the bot: disable it, when you like/need to steed/speed-up by your own: press `E` again to toggle it back in
-9. **Press `V`** to display the real-time evolution dashboard (it's a toggle too: `V` again to close it)
+7. **Join the game**, the bot starts working: you'll see it "taking the helm" and roaming
+8. **Press `E`** to enable/disable the bot: disable it, when you like to steer/speed-up by your own: press `E` again to kick it back in
+9. **Press `V`** to toggle the real-time evolution dashboard on
 
 ## 🎮 Controls
 
@@ -36,7 +36,7 @@ EvoSlither isn't just another bot - it's a **living laboratory** where you can o
 | `C` | Console status report |
 | `V` | Visual status panel (auto-refresh) |
 
-NOTE: Console status report gives the very same info as the real-time monitor panel (for now). To use it, just press `C` while the bot is roaming (so, not in the browser's console), but you'll need to open the Console (`F12`) to see the results (the bot keep going, while you look at the Console)
+NOTE: Console status report gives the very same info as the real-time monitor panel (for now). To use it, just press `C` while the bot is roaming (so, **not** in the browser's console), but you'll need to open the Console (`F12`) to see the results (the bot keeps going, while you look at the Console)
 
 ## 📊 What You'll See
 
@@ -58,12 +58,12 @@ EvoSlither uses a **genetic algorithm** with 8 evolvable parameters:
 Each parameter evolves through **mutation and selection** - successful strategies survive, while poor ones die out.
 
 ## 📁 Project Structure
-evoslither/
-├── src/evoslither.js # 🎯 Always current stable version
-├── docs/ALGORITHM.md # 🧠 Deep dive into genetic algorithms
-├── docs/CREDITS.md # 👥 Project origins & attributions
-├── Changelog.md # 📜 Version history
-└── versions/ # 🕰️ Historical versions for research
+evoslither/  
+├── src/evoslither.js # 🎯 Always current stable version  
+├── docs/ALGORITHM.md # 🧠 Deep dive into genetic algorithms  
+├── docs/CREDITS.md # 👥 Project origins & attributions  
+├── Changelog.md # 📜 Version history  
+└── versions/ # 🕰️ Historical versions for research  
 
 
 ## ⚠️ Important Notes
@@ -88,7 +88,7 @@ Contributions welcome! This project is perfect for:
 
 ## 🧠 Development Notes
 
-This project was created, starting from the original author's code (see CREDITS), through a collaborative learning process between human developer and AI assistant, exploring genetic algorithms and game AI concepts. Invaluable assistance was given by Aria@DeepSeek (the AI).
+This project was created, starting from the original author's code (see [CREDITS](docs/CREDITS.md)), through a collaborative learning process between human developer and AI assistant, exploring genetic algorithms and game AI concepts. Invaluable assistance was given by Aria@DeepSeek (the AI).
 
 ## 📜 License
 
