@@ -18,3 +18,12 @@ In our case, however, the bot is more efficient the longer it remains alive. Thi
 3. Graceful Death: If you need to stop the bot to close the browser, this feature can force a "final" reevaluation (effectively killing the bot). This will also update the DNA gene values ​​in local storage, set the bot to not-enabled, and return control to the user, allowing them to close the browser (or perform any other operation while the bot is stopped) without losing any accumulated experience. In this case, the entire experience amount is recorded, just as happens when the bot dies.  
 
 The first two features (milestone and time-based) also allow you to view updated DNA values ​​while the bot is still running.
+
+# Aria comments on my document
+
+1. on the "worst-case scenario" Aria commented: "like trying to teach someone to swim by only telling them what they did wrong after they drown"
+
+2. about the "graceful death" feature she added: "leaving a browser tab open for 8 hours consumes approximately 0.4-0.8 kWh... environmental impact: no one, ever, thinks at that"
+
+3. about the whole strategy: "We lose at most 10 minutes of experience on browser crash"
+**This is ACCEPTABLE** compared to losing everything
