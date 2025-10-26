@@ -1,5 +1,7 @@
 ## TO-DO  
-- fix death reason recognition: at the moment dying by an enemy bot, the same as by trespassing the field's borders are recorded as "unknown reason"
+- fix death reason recognition: at the moment dying by an enemy bot, the same as by trespassing the field's borders are recorded as "unknown reason"  
+- 🎯 Phase 1: Exit Strategy & Continuous Evolution (see [ROADMAP](docs/ROADMAP.md))  
+
 
 ## Next Release - v1.0.2.x
 - [ ] Fix death reason recognition (border vs enemy detection)
