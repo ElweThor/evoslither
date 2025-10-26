@@ -57,15 +57,6 @@ EvoSlither uses a **genetic algorithm** with 8 evolvable parameters:
 
 Each parameter evolves through **mutation and selection** - successful strategies survive, while poor ones die out.
 
-## 📁 Project Structure
-evoslither/  
-├── src/evoslither.js # 🎯 Always current stable version  
-├── docs/ALGORITHM.md # 🧠 Deep dive into genetic algorithms  
-├── docs/CREDITS.md # 👥 Project origins & attributions  
-├── Changelog.md # 📜 Version history  
-└── versions/ # 🕰️ Historical versions for research  
-
-
 ## ⚠️ Important Notes
 
 - **Educational Purpose**: This project focuses on algorithm research
